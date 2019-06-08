@@ -1,0 +1,37 @@
+{
+  "name": "pbl-task-service",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "PORT=4003 nodemon -r @babel/register -r @babel/polyfill src/index.js",
+    "prod": "node -r @babel/register -r @babel/polyfill src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-link-context": "^1.0.17",
+    "apollo-link-http": "^1.5.14",
+    "apollo-server": "^2.4.8",
+    "apollo-server-cache-redis": "^0.3.1",
+    "apollo-server-express": "^2.4.8",
+    "express": "latest",
+    "graphql": "^14.2.1",
+    "graphql-iso-date": "^3.6.1",
+    "graphql-tools": "5.0.0-rc.0",
+    "mongoose": "^5.5.0",
+    "node-fetch": "latest",
+    "pbl-lib": "file:../pbl-lib/pbl-lib-1.0.0.tgz"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.3.4",
+    "@babel/plugin-proposal-optional-chaining": "^7.2.0",
+    "@babel/plugin-proposal-throw-expressions": "^7.2.0",
+    "@babel/polyfill": "^7.4.0",
+    "@babel/preset-env": "^7.3.4",
+    "@babel/preset-flow": "^7.0.0",
+    "@babel/register": "^7.4.0",
+    "nodemon": "latest"
+  }
+}

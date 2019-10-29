@@ -19,7 +19,7 @@
     "graphql": "^14.2.1",
     "graphql-iso-date": "^3.6.1",
     "graphql-tools": "5.0.0-rc.0",
-    "mongoose": "^5.5.0",
+    "mongoose": "^5.7.5",
     "node-fetch": "latest",
     "pbl-lib": "file:../pbl-lib/pbl-lib-1.0.0.tgz"
   },
